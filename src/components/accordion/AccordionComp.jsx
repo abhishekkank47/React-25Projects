@@ -7,7 +7,7 @@ const AccordionComp = () => {
 
   //handle Quetion
   const handleQuetion = (getId) =>{
-    setSelected(getId)
+    setSelected(getId === selected ? null : getId)
   }
 
   return (
